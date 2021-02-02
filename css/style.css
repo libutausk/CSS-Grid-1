@@ -1,0 +1,33 @@
+        body {
+            margin: 0;
+        }
+        .container {
+            display: grid;
+            grid-gap: 10px;
+            height: 100vh;
+            grid-template-columns: 1fr 3fr 3fr 3fr;
+            grid-template-rows: 1fr 5fr 15fr 1fr;
+            color: #fff;
+            font-size: 20px;
+        }
+        .header {
+            grid-column: 1 / 5;
+            background-color: cadetblue;
+        }
+        .sidebar {
+            grid-row: 2 / 4;
+            background-color: forestgreen;
+        }
+        .footer {
+            grid-column: 1 / 5;
+            background-color: cadetblue;
+        }
+        .mainContent {
+            grid-column: 2 / 5;
+        }
+        .content {
+            background-color: darkgray;
+        }
+        .mainContent {
+            background-color: tomato;
+        }
